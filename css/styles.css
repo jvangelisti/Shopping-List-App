@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+}
+.shoppinglist {
+	width: 60rem;
+	margin: 0 auto;
+	background-color: green;
+	padding: .5rem 0 1rem 2rem;
+}
+.shoppinglist p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25rem;
+	color: #FFFFFF;	
+}
+.field {
+	margin: 1rem auto;
+}
+.shoppinglist input {
+	height: 1.5rem;
+	width: 25rem;
+}
+.shoppinglist select {
+	height: 2rem;
+	width: 25.25rem;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25rem;
+}
+.shoppinglist option {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25rem;
+	padding: 0 .5rem 0 0;
+}
