@@ -12,8 +12,8 @@
 		<p>Shopping List</p>
 		<section class="field">
 			<label name="entry"></label>
-			<input type="text" name="entry" placeholder="Enter Item Here">
-			<button>Add to list</button>
+			<input type="text" name="entry" placeholder="Enter Item Here" id="add-item">
+			<button id="add-button">Add to list</button>
 		</section>
 		<section class="field">
 			<label name="commonitem"></label>
@@ -25,18 +25,20 @@
 				<option value="Lettuce">Lettuce</option>
 				<option value="Spinach">Spinach</option>
 			</select>
-			<button>Add to list</button>
+			<button id="add-button">Add to list</button>
 		</section>
-		<section class="items">
+		<section class="list">
 			<ul>
-				<li>Apples</li>
-				<button>Remove</button>				
-				<li>Coffee</li>
-				<button>Remove</button>
-				<li>Grapes</li>
-				<button>Remove</button>
+				<li class="item">Apples</li>
+				<button id="remove-button">Remove</button>				
+				<li class="item">Coffee</li>
+				<button id="remove-button">Remove</button>
+				<li class="item">Grapes</li>
+				<button id="remove-button">Remove</button>
 			</ul>
 		</section>
 	</section>
 </body>
+<script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </html>
